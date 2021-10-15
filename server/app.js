@@ -6,7 +6,7 @@ const product_controller = require('./product_controller');
 
 const app = express();
 const port = 3000;
-const db = "mongodb+srv://gustavo_antonelli:gustavo_antonelli@cluster0.pdhkp.mongodb.net/aplicacao_httpp?retryWrites=true&w=majority"
+const db = "mongodb+srv://<username>:<password>@cluster0.pdhkp.mongodb.net/aplicacao_httpp?retryWrites=true&w=majority"
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
